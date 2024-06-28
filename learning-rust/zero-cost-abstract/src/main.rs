@@ -1,3 +1,4 @@
+// Zero-cost abstraction
 fn main() {
     let numbers = vec![5, 4, 1, 7, 10];
 
