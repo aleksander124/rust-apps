@@ -1,8 +1,10 @@
 fn main() {
-    define_x()
-}
+    let numbers = vec![5, 4, 1, 7, 10];
 
-fn define_x(){
-    let x = "hello";
-    println!("{}, word", x);
+    let max_element = numbers.iter().max();
+
+    match max_element{
+        Some(&max) => println!("Max element is {}", max),
+        None => println!("The vector is empty"),
+    }
 }
